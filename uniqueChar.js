@@ -28,8 +28,8 @@ uniqueChar = (str) => {
   return true;
 };
 
-// console.log(uniqueChar("hello")); // false
-// console.log(uniqueChar("copyright")); // true
+console.log(uniqueChar("hello")); // false
+console.log(uniqueChar("copyright")); // true
 
 // --- recursive function ---
 
@@ -45,5 +45,5 @@ uniqueCharRecursive = (str, i) => {
   }
 };
 
-console.log(uniqueCharRecursive("hello")); // false
-console.log(uniqueCharRecursive("copyright")); // true
+// console.log(uniqueCharRecursive("hello")); // false
+// console.log(uniqueCharRecursive("copyright")); // true
