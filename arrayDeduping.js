@@ -15,7 +15,7 @@
 // --- without filter ---
 
   // -- for loop / indexOf --
-  // indexOf() searches the array, if returns -1 it is removed
+  // indexOf() searches the array, if returns -1 push to newArray
 
 arrayDedupling = (input) => {
   let newArray = [];
@@ -54,6 +54,8 @@ arrayDedupling = (input) => {
 };
 
 // console.log(arrayDedupling([7, 9, "hi", 12, "hi", 7, 53]));
+
+
 
 // --- recursive function ---
 
